@@ -1,19 +1,11 @@
-//import 'dart:js';
-
 import 'package:chuck_app/src/pages/categorycard.dart';
 import 'package:chuck_app/src/util/Provider.dart';
 import 'package:chuck_app/src/view/joke_list.dart';
 import 'package:flutter/material.dart';
-import 'package:chuck_app/src/models/Category.dart';
-//import 'package:chuck_app/src/view/joke_list.dart';
-//import 'package:chuck_app/src/pages/categorycard.dart';
 
 class CategoryListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    List<Category> categorias = categoriasProvider;
-    var lal = menuProvider.cargarData();
-
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading:
