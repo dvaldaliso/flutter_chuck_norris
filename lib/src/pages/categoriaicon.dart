@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:chuck_app/widget/iconfont.dart';
+import 'package:chuck_app/src/pages/iconfont.dart';
 
 class CategoryIcon extends StatelessWidget {
   Color? color;

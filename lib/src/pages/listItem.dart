@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:chuck_app/models/Chuck.dart';
+import 'package:chuck_app/src/models/Chuck.dart';
 
 class ListItem extends StatelessWidget {
   final int index;

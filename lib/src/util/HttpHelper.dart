@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'dart:io';
-import 'package:chuck_app/models/Chuck.dart';
+import 'package:chuck_app/src/models/Chuck.dart';
 import 'package:http/http.dart' as http;
 
 class HttpHelper {

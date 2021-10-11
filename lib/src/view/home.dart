@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:chuck_app/models/Category.dart';
+import 'package:chuck_app/src/models/Category.dart';
 import 'joke_list.dart';
 
 class Home extends StatefulWidget {

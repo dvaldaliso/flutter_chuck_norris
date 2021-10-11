@@ -10,4 +10,11 @@ class Category {
     this.icon,
     this.color,
   });
+
+  factory Category.fromJson(String parsedJson) {
+    return Category(
+      image: parsedJson,
+      tipo: parsedJson,
+    );
+  }
 }

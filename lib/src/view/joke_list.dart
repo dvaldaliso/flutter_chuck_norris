@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
-import 'package:chuck_app/models/Category.dart';
-import 'package:chuck_app/models/Chuck.dart';
-import 'package:chuck_app/widget/listItem.dart';
+import 'package:chuck_app/src/models/Category.dart';
+import 'package:chuck_app/src/models/Chuck.dart';
+import 'package:chuck_app/src/pages/listItem.dart';
 import '../util/HttpHelper.dart';
 
 class JokesList extends StatefulWidget {
